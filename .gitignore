@@ -13,5 +13,8 @@
 # Ignore Sass' cache
 /.sass-cache
 
+# Ignore lock file for Ruby Gems
 Gemfile.lock
+
+# Ignore Aptana / Eclipse project file
 .project
