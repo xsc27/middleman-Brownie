@@ -1,0 +1,15 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title><%= data.page.title || "The Middleman" %></title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="index,follow" />
+	<link rel="shortcut icon" href="/images/favicon.ico" />
+	<%= stylesheet_link_tag "style" %>
+	<!--[if (gte IE 6)&(lte IE 8)]>
+	<%= javascript_include_tag "html5", "selectivizr-min" %>
+	<%= stylesheet_link_tag "ie_7" %>
+	<![endif]-->
+	<%= javascript_include_tag "jquery.min", "jquery.easing.1.3", "jquery-ui-1.8.16.custom.min", "all-in-one", "setup" %>
+</head>
